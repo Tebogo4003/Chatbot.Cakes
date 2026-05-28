@@ -149,3 +149,5 @@ GitHub: https://github.com/Tebogo4003/Chatbot.Cakes
 License
 
 This project is for educational purposes.
+
+<img width="1357" height="759" alt="Screenshot 2026-05-28 224343" src="https://github.com/user-attachments/assets/88a7532d-3979-48d3-b239-4c445a483c3a" />
