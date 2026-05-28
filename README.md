@@ -1,239 +1,151 @@
-# 🛡️ Cybersecurity Awareness Assistant (WPF Chatbot)
+Cybersecurity Awareness Assistant (WPF Chatbot)
 
-A desktop chatbot built with **C# and WPF (.NET)** that helps users learn basic cybersecurity awareness through interactive conversation.
+A desktop chatbot built with C# and WPF that helps users learn basic cybersecurity awareness through interactive conversation.
 
 This project was created as part of a programming assignment and focuses on safe online habits such as password security, phishing awareness, malware protection, WiFi safety, and personal privacy.
 
----
+Features
 
-## 📌 Features
-
-### ✅ Keyword Recognition
+Keyword Recognition
 The chatbot detects cybersecurity-related keywords and responds with helpful information.
 
-Supported topics:
+You can ask about:
 
-- 🔒 Password Security
-- 🎣 Phishing Awareness
-- 🦠 Malware Protection
-- 📶 WiFi Security
-- 🔐 Privacy Protection
+Password Security
+Phishing Awareness
+Malware Protection
+WiFi Security
+Privacy Protection
 
-Example:
+For instance, if you type password, the bot might reply: Never reuse passwords across accounts.
 
-User:
-password
+Random Responses
+Each topic contains multiple responses to keep the conversation fresh.
 
-Bot:
-🔒 Never reuse passwords across accounts.
+If you type password multiple times, you might get different answers like:
 
----
+Use a strong passphrase
+Enable Multi-Factor Authentication
+Never reuse passwords
 
-### ✅ Random Responses
-Each topic contains multiple responses.
+Memory Recall
+The chatbot remembers who you are to make the interaction more personal.
 
-Example:
+For example, if you type my name is John, the bot will reply: Nice to meet you, John!
 
-Typing `password` multiple times may return:
+Conversation Flow
+You can keep the conversation going naturally without repeating yourself.
 
-- Use a strong passphrase
-- Enable Multi-Factor Authentication
-- Never reuse passwords
+Try typing words like another or more. The bot understands you want another tip from the previous topic.
 
----
+Menu Bar
+I included a quick access menu at the top:
 
-### ✅ Memory Recall
-The chatbot remembers the user’s name.
+File
+Clear Chat
+Exit
 
-Example:
+Topics
+Passwords
+Phishing
+Malware
+WiFi Security
+Privacy
 
-User:
-my name is John
+Help
+About
 
-Bot:
-Nice to meet you, John!
+GUI Chat Interface
+The interface is styled with chat bubbles to make it easy to read.
 
----
+Your messages appear in blue
+Bot messages appear in dark grey
 
-### ✅ Conversation Flow
-Users can continue conversations naturally.
+The conversation window is also scrollable so you can look back at previous tips.
 
-Examples:
+ASCII Art Banner
+To give it some character, the bot displays a cybersecurity-themed banner when it starts up.
 
-- another
-- more
+Technologies Used
 
-The bot returns another response from the previous topic.
+C#
+WPF
+.NET
+Visual Studio
 
----
+Project Structure
 
-### ✅ Menu Bar
-Quick access menu:
-
-### File
-- Clear Chat
-- Exit
-
-### Topics
-- Passwords
-- Phishing
-- Malware
-- WiFi Security
-- Privacy
-
-### Help
-- About
-
----
-
-### ✅ GUI Chat Interface
-Styled chat bubbles:
-
-- User messages → blue
-- Bot messages → dark grey
-
-Scrollable conversation window included.
-
----
-
-### ✅ ASCII Art Banner
-Displays a cybersecurity-themed banner at startup.
-
----
-
-## 🛠 Technologies Used
-
-- C#
-- WPF
-- .NET
-- Visual Studio
-
----
-
-## 📂 Project Structure
-
-```bash
 Chatbot.Cakes/
-│
-├── MainWindow.xaml
-├── MainWindow.xaml.cs
-├── App.xaml
-├── App.xaml.cs
-├── README.md
-```
 
----
+MainWindow.xaml
+MainWindow.xaml.cs
+App.xaml
+App.xaml.cs
+README.md
 
-## ▶️ How To Run
+How To Run
 
-### 1. Clone repository
+1. Clone the repository
 
-```bash
 git clone https://github.com/yourusername/Chatbot.Cakes.git
-```
 
----
+2. Open in Visual Studio
 
-### 2. Open in Visual Studio
+Open the file named Chatbot.Cakes.sln
 
-Open:
+3. Build the project
 
-```bash
-Chatbot.Cakes.sln
-```
+Press Ctrl + Shift + B
 
----
+4. Run the application
 
-### 3. Build project
+Press F5
 
-Press:
+Example Usage
 
-```bash
-Ctrl + Shift + B
-```
+Enter your name
 
----
-
-### 4. Run
-
-Press:
-
-```bash
-F5
-```
-
----
-
-## 💬 Example Usage
-
-### Enter name
-
-```text
 my name is Sarah
-```
 
----
+Ask about passwords
 
-### Ask about passwords
-
-```text
 password
-```
 
 Response:
 
-```text
-🔒 Enable MFA.
-```
+Enable MFA.
 
----
+Ask about phishing
 
-### Ask about phishing
-
-```text
 phishing
-```
 
 Response:
 
-```text
-🎣 Hover over suspicious links before clicking.
-```
+Hover over suspicious links before clicking.
 
----
+Continue the conversation
 
-### Continue
-
-```text
 another
-```
 
----
+Learning Outcomes
 
-## 🎯 Learning Outcomes
+This project helped me practice and understand several core concepts:
 
-This project demonstrates:
+Object-Oriented Programming
+Using Collections like Dictionary and List
+Generating random responses
+Handling events in the UI
+Developing interfaces with WPF
+Processing user input
+Matching keywords
+Managing basic conversation flow
 
-- Object-Oriented Programming
-- Collections (Dictionary + List)
-- Random response generation
-- Event handling
-- WPF UI development
-- User input processing
-- Keyword matching
-- Basic chatbot conversation flow
+Author
 
----
+Created by Tebogo Mashego
 
-## 👨‍💻 Author
+GitHub: https://github.com/yourusername
 
-Created by **Tebogo Mashego**
-
-GitHub:
-https://github.com/yourusername
-
----
-
-## 📄 License
+License
 
 This project is for educational purposes.
