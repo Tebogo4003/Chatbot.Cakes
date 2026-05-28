@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore "Chatbot.Cakes.sln"
     - name: Test
-      run: dotnet test --no-build --verbosity normal  "Chatbot.Cakes.sln"
+      run: dotnet test --no-build --verbosity normal  "Chatbot.Cakes.sln" ..
